@@ -1,0 +1,1 @@
+dette er orgnal opplasnign får firsten men hadde noe problemer så updater min main opload for å vise hva jeg faktisk kan hoper det er greit hvis ikke så er dene savet får firsten men er veldig svak på krav
