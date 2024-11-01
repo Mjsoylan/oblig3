@@ -1,0 +1,1 @@
+i hade some issues, and ended up sick so strugled to finish it on time since my bad but wanted to show what i could do in hope it would count, if not i have sperate branches with the upload at like 11.30 10/31 
