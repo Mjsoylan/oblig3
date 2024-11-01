@@ -32,9 +32,9 @@ export const seed = async (db: DB) => {
       INSERT INTO users (id, name) VALUES (?,?)
     `);
   
-    // ... (lignende prepare-statements for habits og streaks)
+   
     const insertProjects = db.prepare(`
-        INSERT INTO users (id, tittle,user_id,tag,published_at,public,status,textinfo) VALUES (?,?,?,?,?,?,?,?)
+        INSERT INTO Projects (id, tittle,user_id,tag,published_at,public,status,textinfo) VALUES (?,?,?,?,?,?,?,?)
       `);
   
     db.transaction(() => {
