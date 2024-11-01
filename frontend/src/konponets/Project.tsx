@@ -1,7 +1,7 @@
 
 
 export type Project ={
-    id:number;
+    id:string;
     tittle: string;
     img: string;
     text:string;

@@ -1,11 +1,15 @@
-{
 
-    
-    "User":[
-        {"id":"firstuser","name":"testuser"},
-        {"id":"seconduser","name":"testandrebruker"}
-    ],
-    "Project":[
+{
+	"users": [
+	    {
+            "id":"firstuser",
+            "name":"testuser" 
+    },
+        {"id":"seconduser",
+        "name":"testandrebruker"
+    }
+	],
+	"projects":[
         {"id":"0","tittle":"first_pro","user_id":"firstuser","tag":"project","published_at":"31/10/2024","public":"TRUE","status":"notcomplete","textinfo":"this is a showcase of a project that would already be there!"},
     
         {"id":"1","tittle":"second_pro","user_id":"firstuser","tag":"project","published_at":"31/10/2024","public":"TRUE","status":"notcomplete","textinfo":"same as the other showcase for projects so read that info for this xd"},
@@ -16,8 +20,6 @@
     
         {"id":"4","tittle":"public_showcase2","user_id":"seconduser","tag":"new","published_at":"30/10/2024","public":"TRUE","status":"complete","textinfo":"this is just a showcase for public"}
       ]
-    
-
 
 }
 

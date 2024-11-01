@@ -4,11 +4,10 @@
 
 import Database from "better-sqlite3";
 import { makeLogger } from "lib/logger.js";
-import { env } from "process";
 
 
 
-export const db = new Database(env.DATABASE_URL, {
+export const db = new Database("dev.db", {
   verbose: (message: unknown) => makeLogger().info(`${message}`),
 });
 

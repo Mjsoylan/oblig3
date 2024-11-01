@@ -4,7 +4,7 @@ import type { CreateprojectDto, project, UpdateprojectDto } from "../types/proje
 import type { Data, Result } from "lib/result.js";
 import { ResultHandler } from "lib/failures.js";
 import { createproject } from "../mappers/projectmapper.js";
-import type { HonoEnv } from "../../index.js";
+import type { HonoEnv } from "../../app.js";
 import { projectService } from "../service/index.js";
 import { Hono, type Context, type MiddlewareHandler } from "hono";
 import type { User } from "../types/users.js";
